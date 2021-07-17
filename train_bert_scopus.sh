@@ -16,5 +16,5 @@ python train.py \
         -epoch 1 \
         -batch_size 16 \
         -lr 2e-5 \
-        -eval_every 104
+        -eval_every 104 \
         -logging_step 104
