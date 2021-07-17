@@ -447,7 +447,7 @@ def main():
     parser.add_argument('-gradient_accumulation_steps', type=int, default=4) 
     parser.add_argument("-max_grad_norm", default=1.0,type=float,help="Max gradient norm.",)
     parser.add_argument('-eval_every', type=int, default=1000)
-    parser.add_argument('-logging_step', type=int, default=100)
+    parser.add_argument('-logging_step', type=int, default=104)
     parser.add_argument('-test_init_log', action='store_true', default=False)
     parser.add_argument('--no_cuda', action='store_true', default=False)
     parser.add_argument('--local_rank', type=int, default=-1) # for distributed mode
